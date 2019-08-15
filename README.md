@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: Appservice
-platforms: java
-author: yaohaizh
+extensions:
+- services: Appservice
+- platforms: java
 ---
 
-## Getting Started with Appservice - Manage Function App Basic - in Java ##
+# Getting Started with Appservice - Manage Function App Basic - in Java #
 
 
   Azure App Service basic sample for managing function apps.
