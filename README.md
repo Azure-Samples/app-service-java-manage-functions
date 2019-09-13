@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Appservice
-- platforms: java
+description: "Azure App Service basic sample for managing function apps."
+urlFragment: app-service-java-manage-functions
 ---
 
 # Getting Started with Appservice - Manage Function App Basic - in Java #
