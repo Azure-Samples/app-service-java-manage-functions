@@ -129,7 +129,7 @@ public final class ManageFunctionAppBasic {
             }
             return true;
         } catch (Exception e) {
-            System.err.println(e.getMessage());
+            System.err.println(e.getLocalizedMessage());
             e.printStackTrace();
         } finally {
             try {
@@ -171,7 +171,7 @@ public final class ManageFunctionAppBasic {
             runSample(azure);
 
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.getLocalizedMessage());
             e.printStackTrace();
         }
     }
